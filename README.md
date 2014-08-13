@@ -1,4 +1,4 @@
-# chai-param
+chai-param
 ==========
 
 Use chai to validate your method's parameters
