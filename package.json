@@ -3,9 +3,16 @@
   "author": "The Blacksmith (a.k.a. Saulo Vallory)",
   "license": "MIT",
   "description": "Adds useful methods for using chai to validate function parameters",
-  "keywords": [ "assertion", "assert", "chai", "parameter check", "guard", "chai-plugin", "parameter"],
+  "keywords": [
+    "assertion",
+    "assert",
+    "chai",
+    "parameter check",
+    "guard",
+    "chai-plugin",
+    "parameter"
+  ],
   "homepage": "http://github.com/theblacksmith/chai-param",
-  "license": "MIT",
   "version": "0.1.2",
   "repository": {
     "type": "git",
@@ -15,13 +22,12 @@
     "url": "https://github.com/theblacksmith/chai-param/issues"
   },
   "main": "./index",
-
   "scripts": {
     "test": "mocha"
   },
-
   "devDependencies": {
-    "chai": "^1.9.1"
+    "chai": "^1.9.1",
+    "mocha": "^2.4.2"
   },
   "dependencies": {
     "chalk": "^0.5.1",

@@ -38,12 +38,12 @@ describe('chai-param', function(){
     chaip.config.disableColors = true;
 
     expect(function() {
-      param('', 'aParam', 'aFunc').should.not.be.empty
-    }).throws(chai.AssertionError, /aFunc\: expected parameter aParam/)
+      param('', 'aParam', 'aFuncss').should.not.be.empty
+    }).throws(chai.AssertionError, /aFuncss\: expected parameter aParam/)
 
-    expect(function chaiTest() {
-      param('', 'aParam', 'chaiTest', 'aTopic').should.not.be.empty
-    }).throws(chai.AssertionError, /aTopic\: expected parameter aParam .* Called at/)
+    expect(function nameToGetCaller() {
+      param('', 'aParam', 'nameToGetCaller', 'aTopic').should.not.be.empty;
+    }).throws(chai.AssertionError, /aTopic\: expected parameter aParam [\s\S]* Called at/)
 
     chaip.config.disableColors = false;
   })
