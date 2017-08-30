@@ -1,5 +1,7 @@
-chai-param
+ABANDONED! This project is abandoned. I don't have time to maintain it :(
 ==========
+
+# chai-param
 
 Use chai to validate your method's parameters
 
